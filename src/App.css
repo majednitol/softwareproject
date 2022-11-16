@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-bar{
+  background-image: url("./images/banner.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 800px;
+  
+  position: relative;
+  
+  
+}
+.nav-content-text{
+  font-size: 70px;
+  font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box{
+  height: 350px;
+  width: 400px;
+  
+  padding-top: 100px;
+  
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bgbox{
+  background-color: rgb(92, 89, 89);
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+/* .allBox{
+   position: absolute;
+  top: 790px;
+  left: 110px;
+  
+
+} */
+
+.bgcolor1{
+  background-color:rgb(56,91,178);
+  border-radius: 10px;
+  
+
+}
+.bgcolor2{
+  background-color:rgb(68,108,205);
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.chairImage{
+  background-image: url("./images/chair.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 660px;
+  border: 1px solid white;
+  
+}
+/* h1, h2,h3, h4, h5, h6{
+  font-weight:
+} */
+hr{width: 500px;}
+.service:hover{
+  color: rgb(56,91,178);
+}
+
+.fourbox{
+  height: 273px;
+  padding: 70px;
+  border-right: 1px solid white;
+  border-radius: 10px;
+  
+}
+
+.banner2{
+  background-image: url("./images/banner2.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 770px;
+  /* position: relative; */
+  
+  
+}
+
+.pageItem{
+  
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.pageItem:hover{
+  border-bottom: 4px solid rgb(56,91,178);
+  /* transition: 9s; */
+  color:rgb(56,91,178) ;
+ 
+ 
+}
+.allBox{
+  border-radius: 10px;
 }
