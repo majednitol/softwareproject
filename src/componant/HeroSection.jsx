@@ -1,7 +1,6 @@
 import React from 'react'
 import Card from './Card'
-import NavBar from './NavBar';
-import {Parallax} from 'react-parallax'
+
 function HeroSection() {
   return (
     <div>
