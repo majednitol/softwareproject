@@ -1,4 +1,5 @@
 import React from 'react'
+import Box from './Service-Box'
 
 function Services() {
   return (
@@ -64,7 +65,7 @@ function Services() {
                 <h3 className='service'><b>Oral patology</b></h3>
               </div>
               <div className="col-lg-6"data-aos="fade-left">
-                <b> <h3><i class="fa-solid fa-arrow-right service"></i></h3></b>
+                <b> <h3><i className="fa-solid fa-arrow-right service"></i></h3></b>
 
               </div>
             </div>
@@ -81,7 +82,7 @@ function Services() {
 
               </div>
               <div className="col-lg-6">
-                <b> <h3><i class="fa-solid fa-arrow-right service"></i></h3></b>
+                <b> <h3><i className="fa-solid fa-arrow-right service"></i></h3></b>
 
               </div>
             </div>
@@ -93,7 +94,7 @@ function Services() {
                 <h3 className='service' ><b>Orthodonthics</b></h3>
               </div>
               <div className="col-lg-6" data-aos="fade-left">
-                <b> <h3><i class="fa-solid fa-arrow-right service"></i></h3></b>
+                <b> <h3><i className="fa-solid fa-arrow-right service"></i></h3></b>
 
               </div>
             </div>
@@ -102,28 +103,14 @@ function Services() {
 
         </div>
       </div>
-      <div className="container-fluid my-5">
-        <div className="row text-center text-white">
-          <div className="col-lg-3 bg-primary fourbox "data-aos="zoom-in">
-            <h1><b>10+</b></h1>
-            <h3>Great Dentiscs</h3>
-
-          </div>
-          <div className="col-lg-3 bg-primary fourbox "data-aos="zoom-in">
-            <h1><b>10+</b></h1>
-            <h3>Great Dentiscs</h3>
-
-          </div> <div className="col-lg-3 bg-primary fourbox "data-aos="zoom-in">
-            <h1><b>10+</b></h1>
-            <h3>Great Dentiscs</h3>
-
-          </div> <div className="col-lg-3 bg-primary fourbox "data-aos="zoom-in">
-            <h1><b>10+</b></h1>
-            <h3>Great Dentiscs</h3>
-
-          </div>
-        </div>
-      </div>
+   <div className="container">
+        <div className="row">
+          <div className="col-lg-3"data-aos="zoom-in"><Box/></div>
+          <div className="col-lg-3 "data-aos="zoom-in"><Box/></div>
+          <div className="col-lg-3"data-aos="zoom-in"><Box/></div>
+          <div className="col-lg-3"data-aos="zoom-in"><Box/></div>
+    </div>
+   </div>
     </div>
   )
 }

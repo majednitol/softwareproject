@@ -3,15 +3,17 @@ import React from 'react'
 function Card() {
   return (
     <div>
-          <div class="box mx-4">
-        
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          b5
-        </div>
-      </div>
+
+      
+         <div className="box p-5" >
+           
+           <div >
+          <h4 >Title</h4>
+          <h5 >card sub title</h5>
+          <p  >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel accusantium saepe excepturi minus porro rem veniam dignissimos .</p>
+           </div>
+         </div>
+    
     </div>
   )
 }

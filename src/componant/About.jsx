@@ -23,7 +23,9 @@ function About() {
             <p className='text-muted' data-aos="fade-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </p>
             <div data-aos="fade-left" > It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
-            <div className="btn btn-primary btn-lg my-5 "data-aos="fade-left">see our services</div>
+            <div className=" my-5 " data-aos="fade-left">
+              <button className='btn1'>see our services</button>
+            </div>
           </div>
         </div>
       </div>

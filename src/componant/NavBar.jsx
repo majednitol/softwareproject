@@ -6,7 +6,7 @@ import '../App.css'
 function NavBar() {
     return (
         <div className=" ">
-            <nav class="navbar navbar-expand-lg  navbar-light bg-light ">
+            <nav class="navbar navbar-expand-lg  navbar-light bg-light fixed-">
                 <div class="container-fluid pt-4 mb-4">
                     <a class="navbar-brand " href="##">Navbar</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,40 +20,40 @@ function NavBar() {
                                 </Link>
 
                             </li>
-                            <li class="nav-item pageItem mt-2">
+                            <li className="nav-item pageItem mt-2">
                                 <Link activeClass="active" to="about" spy={true} smooth={true} offset={-50} duration={500} >
-                                About
+                                    About
                                 </Link>
-                               
-                            </li><li class="nav-item pageItem mt-2">
+
+                            </li><li className="nav-item pageItem mt-2">
                                 <Link activeClass="active" to="services" spy={true} smooth={true} offset={-110} duration={500} >
-                                Services
+                                    Services
                                 </Link>
-                               
+
                             </li>
-                            <li class="nav-item pageItem mt-2">
+                            <li className="nav-item pageItem mt-2">
                                 <Link activeClass="active" to="team" spy={true} smooth={true} offset={-0} duration={500} >
-                                Team
+                                    Team
                                 </Link>
-                               
+
                             </li>
-                            <li class="nav-item pageItem mt-2">
+                            <li className="nav-item pageItem mt-2">
                                 <Link activeClass="active" to="testimonial" spy={true} smooth={true} offset={-50} duration={500} >
-                                Testimonial
+                                    Testimonial
                                 </Link>
-                               
+
                             </li>
-                            <li class="nav-item pageItem mt-2">
+                            <li className="nav-item pageItem mt-2">
                                 <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-50} duration={500} >
-                                Contact
+                                    Contact
                                 </Link>
-                                
+
                             </li>
 
                         </ul>
-                        <form class="d-flex">
-                            <input class="form-control mr-2 pb-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button class="btn btn-outline-primary px-4" type="submit">Search</button>
+                        <form className="d-flex">
+                            <input className="form-control mr-2 pb-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button className="btn btn-outline-primary px-4" type="submit">Search</button>
                         </form>
                     </div>
                 </div>

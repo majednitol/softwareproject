@@ -13,6 +13,8 @@ import HeroSection from './HeroSection';
 
 
 
+
+
 function Home() {
   return (
     <div className="App" id='heroSection'>
@@ -29,7 +31,7 @@ function Home() {
     
       <Contact />
       
-      
+     
     </div>
   );
 }
